@@ -32,6 +32,11 @@ A Study Concerning Employee Reviews for Google, Amazon, Apple, Facebook, Microso
 	- Numeric: overall rating, work-balance rating, career opportunities rating, culture values rating, senior management rating, comp& benefits rating
 
 ## Part 2: Methodology
+![alt text](https://github.com/lisu1222/which-company-worth-working-for/blob/master/methodology.png)
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
 
 
  - Google: the overall ratings is on stable increase, but other break-down variables show slow decrease over years, especially in culture values
