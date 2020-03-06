@@ -7,7 +7,7 @@ The Medium Post can be find at: [Which Tech Company is Worth Working for?](https
 
 ## Part 1: Project Motivations
 
-Business Objectives:     
+**Business Objectives:**     
 
 It is an important question to ask when you try to find a new position on your career path: which company within the industry best aligns with your professional goals? In other words, where to send your resume and apply for a job? To facilitate the answer to this question, many candidates reach for the opinions of employees of these companies. Employee reviews give useful insights into the firms and provide valuable suggestions about whether to work for and grow together with the companies. Through employee reviews, we can compare the similarities between these companies, have a better understanding on which company is worth working for, and conduct the common attributes for each company based on their employee reviews.  
 
@@ -19,7 +19,7 @@ I am specially interested to find answers for the following questions with this 
 2. Which company stands out the most from various aspects and is worth working for?  
 3. What are the aspects that firms need to improve?  
 
-### Part 2: Data Description  
+## Part 2: Data Description  
 
 **Topic:**  
 	Tech company reviews of employees  
@@ -101,7 +101,7 @@ We can tell from the above graph that:
 
 ## Part 4: Conclusion
 
-#### Recommendations:
+### Recommendations:
 
 **For companies**
 
