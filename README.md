@@ -11,7 +11,7 @@ Business Objectives:
 
 It is an important question to ask when you try to find a new position on your career path: which company within the industry best aligns with your professional goals? In other words, where to send your resume and apply for a job? To facilitate the answer to this question, many candidates reach for the opinions of employees of these companies. Employee reviews give useful insights into the firms and provide valuable suggestions about whether to work for and grow together with the companies. Through employee reviews, we can compare the similarities between these companies, have a better understanding on which company is worth working for, and conduct the common attributes for each company based on their employee reviews.  
 
-This study aims to help comapnies understand what area to improve while bring insights to job hunters to help them know better about their dream companies. 
+This study aims to help comapnies understand what area to improve while try to bring insights for job hunters to help them know better about their dream companies. 
 
 I am specially interested to find answers for the following questions with this project: 
 
