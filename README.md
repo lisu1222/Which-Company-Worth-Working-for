@@ -23,14 +23,19 @@ I am specially interested to find answers for the following questions with this 
 
 **Topic:**  
 	Tech company reviews of employees  
+
 **Companies:**  
-	Amazon, Apple, Facebook, Google, Microsoft and Netflix  
+	Amazon, Apple, Facebook, Google, Microsoft and Netflix 
+
 **Size:**  
-	over 67k records and 15 variables        
+	over 67k records and 15 variables 
+
 **Time Range:**     
-	2008 - 2018        
+	2008 - 2018  
+
 **Source:**   
-	The initial dataset was downloaded from [Kaggle](www.kaggle.com). The original employee reviews’ dataset was scraped from [Glassdoor](www.glassdoor.com), a website where current and former employees anonymously review companies and their management.    
+	The initial dataset was downloaded from [Kaggle](www.kaggle.com). The original employee reviews’ dataset was scraped from [Glassdoor](www.glassdoor.com), a website where current and former employees anonymously review companies and their management. 
+	   
 **Variables:**   
 	15 variables in total   
 	- Character: company name, location, position, summary, pros, cons, advice to management   
