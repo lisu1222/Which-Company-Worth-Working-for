@@ -35,7 +35,7 @@ I am specially interested to find answers for the following questions with this 
 
 **Source:**   
 	The initial dataset was downloaded from [Kaggle](www.kaggle.com). The original employee reviews’ dataset was scraped from [Glassdoor](www.glassdoor.com), a website where current and former employees anonymously review companies and their management. 
-	   
+
 **Variables:**   
 	15 variables in total   
 	- Character: company name, location, position, summary, pros, cons, advice to management   
@@ -69,7 +69,7 @@ Among those who reveal their locations information, Seattle ranks the top locati
 
 **How differently are those tech companies being rated?**  
 
-![alt text](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/cons_pros.png)
+![alt text](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/ratings.png)
 
 ![Boxplot](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/boxplots.png)
 
