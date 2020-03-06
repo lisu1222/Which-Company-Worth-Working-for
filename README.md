@@ -1,6 +1,7 @@
 # Which Company is Worth Working for?
 
 A study concerning employee reviews for Google, Amazon, Apple, Facebook, Microsoft, and Netflix. 
+Medium Post can be find at: [Which Tech Company is Worth Working for?](https://medium.com/@ls3583/which-tech-company-is-worth-working-for-c21c10f6f1f1)
 
 ## Overview
 
@@ -45,20 +46,33 @@ We are specially interested to find answers for the following questions with thi
 ![Boxplot](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/boxplots.png)
 ![alt text](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/cons_pros.png)
 ![Google](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/google.png)
+Google is praised for its good and smart people, nice food, culture and environment, and blamed for management and pressure from hard projects and long work time.
+
 ![Amazon](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/amazon.png)
+Amazon is praised for its pay and benefits, it’s learn opportunities, culture and environment, while blamed for poor work-life balance and management.
+
 ![Apple](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/apple.png)
+Apple has great benefits, amazing people and generous pay. Employee discounts for its product is also well-mentioned as special benefits. And it’s blamed for management, retail and customer issues as well as work-life balance.
+
 ![Microsoft](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/microsoft.png)
+Microsoft is known for its smart and great people, great opportunities, work-life balance and pay, while blamed for POLITICS and management.
+![Facebook](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/facebook.png)
+Facebook also bring together smart people and share a great culture. Employees don’t like its work-life balance status, and describing work as ‘hard’ and ‘fast’.
+
 ![Netflix](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/netfliix.png)
+Netflix’s employees are satisfied with its good pay, culture of ‘freedom’ and working environment. But they showed grudge about people getting ‘fired’ and not happy with the team, culture and management. It is the only company here that is blamed for its culture.
+
 ![sentimental analysis - emotions](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/senti_emotion.png)
 ![summary](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/summary.png)
 ![trend](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/trend_status.png)
 ![over years](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/over_years.png)
 
  - Google: the overall ratings is on stable increase, but other break-down variables show slow decrease over years, especially in culture values
- - Facebook: Facebook and Netflix share very fluctuant trend over years, but Facebook has the most satisfied senior management generally and its performance in other aspects stay higher compared to others
+ - Facebook and Netflix share very fluctuant trends over years, it’s the only company whose overall ratings drop in the recent years, but Facebook has the most satisfied senior management over years and its performance in other aspects also stay higher compared to others
  - Amazon: showed steady improvements in every aspect since 2015
  - Microsoft: company benefit stars have decreased the most over years
- - Netflix: had the most fluctuant trends 
+ - Netflix apparently made a lot efforts in improving employees’ satisfactions, however over years made less-satisfactory progress
+
 
 ## Part 3: Conclusion
 
@@ -70,6 +84,7 @@ We are specially interested to find answers for the following questions with thi
 2. Companies should learn from Facebook's senior management strategy to motivate their employees
 3. Apple and Netflix need urgent measures to improve work-life balance
 4. Netflix should improve their proceess in firing an employee  
+5. Microsoft should pay attention to its politics issue
 
 **For Job Seekers**
 
@@ -82,6 +97,9 @@ We are specially interested to find answers for the following questions with thi
 	- Educational environment: Google & Microsoft
 	- Long-term stable development: Amazon
 	- Lots of smart employees: Google & Microsoft
+	- Be careful of POLITICS: Microsoft
+
+
 
 
 
