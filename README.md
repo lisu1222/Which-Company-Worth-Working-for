@@ -40,26 +40,32 @@ I am specially interested to find answers for the following questions with this 
 ## Part 3: Data Analysis  
 
 **Which company has the most reviews?**  
+
 ![](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/count_reviews.png)
 Amazon has the largest amount of reviews — over 25,000, and Microsoft follows as the second with less than 20,000. Then comes Apple. Netflix only has 810个reviews in this dataset.
 
 **What are the top 10 job positions that contributed to the reviews?**  
+
 ![](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/positions.png)
 ‘Anonymous Employee’ accounts for the majority，then comes ‘Software Engineer’ and ‘Software Development Engineer’. Apparently employees tend not to reveal their identities when post a company review.
 
 **What are the top 10 locations for employees who made reviews?**  
+
 ![](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/locations.png)
 Among those who reveal their locations information, Seattle ranks the top location, two cities — Redmond and Seattle are on the list. The second state is California and the third is New York. Outside of U.S., there are also two India locations. This list show worldwide popular places that are concentrated with big technology companies.
 
 **What is the time range of the reviews in this dataset?**  
+
 ![](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/time_range.png)
 
 
 **How differently are those tech companies being rated?**  
+
 ![alt text](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/cons_pros.png)
 ![Boxplot](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/boxplots.png)
 
 **Which words are used most frequently in the reviews for each company?**
+
 ![Google](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/google.png)
 Google is praised for its good and smart people, nice food, culture and environment, and blamed for management and pressure from hard projects and long work time.
 
@@ -75,21 +81,25 @@ Microsoft is known for its smart and great people, great opportunities, work-lif
 ![Facebook](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/facebook.png)
 Facebook also bring together smart people and share a great culture. Employees don’t like its work-life balance status, and describing work as ‘hard’ and ‘fast’.
 
-![Netflix](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/netfliix.png)
+![Netflix](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/netflix.png)
 Netflix’s employees are satisfied with its good pay, culture of ‘freedom’ and working environment. But they showed grudge about people getting ‘fired’ and not happy with the team, culture and management. It is the only company here that is blamed for its culture.
 
 
 **What do employee like and dislike about a company in general?**
+
 ![summary](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/summary.png)
 
 **Do current employees review the companies higher than the former ones?**
+
 ![trend](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/trend_status.png)
+
 We can tell from the above graph that:
 - Current employees rated their firms higher than former employee
 - Google has the most satisfied current employee
 - Netflix has the biggest gap for company rating between current and former employee
 
 **How did ratings change over time for each company?**
+
 ![over years](https://github.com/lisu1222/which-company-worth-working-for/blob/master/images/over_years.png)
 
  - Google: the overall ratings is on stable increase, but other break-down variables show slow decrease over years, especially in culture values
