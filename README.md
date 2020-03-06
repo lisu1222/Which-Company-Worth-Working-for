@@ -1,18 +1,20 @@
 # Which Company is Worth Working for?
 
-A Study Concerning Employee Reviews for Google, Amazon, Apple, Facebook, Microsoft, and Netflix 
+A study concerning employee reviews for Google, Amazon, Apple, Facebook, Microsoft, and Netflix. 
 
 ## Overview
+
 - Part 1: Project Motivations
-- Part 2: Methodology  
-		2.1 Data Preprocessing  
-		2.2 Text Mining & Sentimental Analysis  
-		2.3 Trend Analysis  
+- Part 2: Methodology       
+	2.1 Data Preprocessing  
+	2.2 Text Mining & Sentimental Analysis  
+	2.3 Trend Analysis  
 - Part 3: Conclusion  
 
 ## Part 1: Project Motivations
 
 Business Objectives:     
+
 It is an important question to ask when you try to find a new position on your career path: which company within the industry best aligns with your professional goals? In other words, where to send your resume and apply for a job? To facilitate the answer to this question, many candidates reach for the opinions of employees of these companies. Employee reviews give useful insights into the firms and provide valuable suggestions about whether to work for and grow together with the companies. Through employee reviews, we can compare the similarities between these companies, have a better understanding on which company is worth working for, and conduct the common attributes for each company based on their employee reviews.   
 
 We are specially interested to find answers for the following questions with this project:  
@@ -27,9 +29,9 @@ We are specially interested to find answers for the following questions with thi
 **Companies:**  
 	Amazon, Apple, Facebook, Google, Microsoft and Netflix  
 **Size:**  
-	over 67k records and 15 variables 
-**Time Range:**  
-	2008 - 2018   
+	over 67k records and 15 variables        
+**Time Range:**     
+	2008 - 2018        
 **Source:**   
 	The initial dataset was downloaded from [Kaggle](www.kaggle.com). The original employee reviews’ dataset was scraped from [Glassdoor](www.glassdoor.com), a website where current and former employees anonymously review companies and their management.    
 **Variables:**   
