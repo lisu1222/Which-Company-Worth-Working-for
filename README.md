@@ -73,9 +73,11 @@ This project will include the following steps:
 ## Part 3: Data Preparation
 
 **Data Selection:** 
+
 Among the 17 columns, we will use 15 of them - 'helful.count' and 'link' will not be the focus of this project. Rows that are related to reviews of the following companies will be used: Google, Amazon, Facebook, Microsoft, Apple and Netflix. 
 
 **Data Cleaning:**
+
 Detailed data cleaning work can be found within the notebook. Here list methods used in this part of work:
 - drop duplicated records
 - deal with missing values: drop records/replace with mean or mode or 'none' 
@@ -169,9 +171,13 @@ We can tell from the above graph that:
 
 ## Part 5: Data Modeling: 
 
-We want to use text to predict an employee's overall rating for a company. First of all, we need to prepare the dataset for modeling.  
-The initial plan was to use *summary*, however the values contained in this column have very limited value for audience. Only several words were used and mostly are just 'good company' or similar.
+With so many useful information extracted from the text mining, this project moves to build predictive models using the text to predict
+an employee's overall rating to the company.
+ 
+The initial plan was to use *summary*, however the values contained in this column have very limited value or imformation.
+
 Instead, we append *pros* and *cons* to a new single column, and create a document term matrix using Term Frequency - Inverse Document Frequency Weighting.  This term matrix, after transformed to a dataframe, will be used as predictors to predict overall rating.
+
 The data then split to train and test sets. Two machine learning methods were applied in building models: regression tree and linear regression.
 
 
@@ -180,8 +186,10 @@ The data then split to train and test sets. Two machine learning methods were ap
 Root Mean Square Error (RMSE) is the standard deviation of the residuals (prediction errors). Residuals are a measure of how far from the regression line data points are; RMSE is a measure of how spread out these residuals are. In other words, it tells how concentrated the data is around the line of best fit.
 
 Linear Regression has outperformed with a smaller RMSE, which showing better predictive capability.
-RMSE for linear regression: 1.02768442536384
-RMSE for regression tree:   1.10288808043191
+
+RMSE for linear regression: 1.02768442536384  
+ 
+RMSE for regression tree:   1.10288808043191   
 
 
 ## Part 7: Recommendations:
