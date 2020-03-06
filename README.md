@@ -5,7 +5,7 @@ A study concerning employee reviews for Google, Amazon, Apple, Facebook, Microso
 The Medium Post can be find at: [Which Tech Company is Worth Working for?](https://medium.com/@ls3583/which-tech-company-is-worth-working-for-c21c10f6f1f1)
 
 
-## Part 1: Project Motivations
+## Part 1: Business Understanding
 
 **Business Objectives:**     
 
@@ -13,36 +13,78 @@ It is an important question to ask when you try to find a new position on your c
 
 This study aims to help comapnies understand what area to improve meanwhile trying to bring usaful insights for job hunters to help them gain knowledge about how to chooose their dream company. 
 
-I am specially interested to find answers for the following questions with this project: 
+This project is specially interested to find answers for the following business questions: 
 
 1. Waht are the similarities and differences from these companies based on employee reviews?  
 2. Which company stands out the most from various aspects and is worth working for?  
 3. What are the aspects that firms need to improve?  
 
-## Part 2: Data Description  
+**Project Plan:**
 
-**Topic:**  
-	Tech company reviews of employees  
+This project will include the following steps:
+1. Data Preprocessing
+- Deal with duplicates, missing values, messey data types and formats
+2. Data Analysis
+- Exploratory Analysis 
+- Text Mining and Sentimental Analysis
+- Trend Analysis to reveal patterns over time
+3. Predictive Modeling with Text
+- Use combined text from *pros* and *cons* to predict *overall.ratings* . A document term matrix using tfidf will be created as new predictors.
+- regression tree and linear regression will be used to build two models
+- predicting performance will be measured using rmse
 
-**Companies:**  
-	Amazon, Apple, Facebook, Google, Microsoft and Netflix 
+
+
+## Part 2: Data Understanding  
+
+**Source:**   
+	The initial cvs file was downloaded from [Kaggle](www.kaggle.com). The original employee reviews’ dataset was scraped from [Glassdoor](www.glassdoor.com), a website where current and former employees anonymously review companies and their management. 
+
 
 **Size:**  
-	over 67k records and 15 variables 
-
+	The cvs contains over 67k rows and 17 columns.
+    
+**Columns Details:**    
+- 'x': integar, works as row index
+- 'company': character, company names including 'Amazon', 'Apple', 'Facebook', 'Google', 'Microsoft' and 'Netflix' 
+- 'location': character, where the employee works/worked
+- 'dates': character, the date this review was created
+- 'job.title', character, the position and employee status
+- 'summary', character, brief summary given by the employee who made the review
+- 'pros', character, listing pros given by the employee
+- 'cons', character, listing cons given by the employee
+- 'advice.to.mgt', character, advice to the management levels given by the emoloyee   
+-'overall.rating', int, an overall star rating in range between 1 to 5 given by the employee
+- 'work-balance.stars', numeric, a star rating specifically for work and life balance situation in this company given by the employee
+- 'career.opportunities.stars', numeric, a star rating specifically for career opportunities in this company given by the employee
+- 'culture.values.stars', numeric, a star rating specifically for company culture and values given by the employee
+- 'senior.management.stars, numeric, a star rating specifically for senior management situation in this company given by the employee
+- 'comp.benefits.stars', numeric, a star rating specifically for the compensations and benefits in this company given by the employee
+- 'helpful.count', integar, how many 'helpful' did this review received from audience
+- 'link', character, website link to this review
+      
 **Time Range:**     
 	2008 - 2018  
 
-**Source:**   
-	The initial dataset was downloaded from [Kaggle](www.kaggle.com). The original employee reviews’ dataset was scraped from [Glassdoor](www.glassdoor.com), a website where current and former employees anonymously review companies and their management. 
+**Data Quality**
+    Initial data inspection shows that there exist duplicated and missing values in this dataset. Variables' data types are not unified. Some columns should be transformed to usable formats. Multiple steps of data cleaning and preprocessing will be in need before analysis.
+    
+    
+## Part 3: Data Preparation
 
-**Variables:**   
-	15 variables in total   
-	- Character: company name, location, position, summary, pros, cons, advice to management   
-	- Numeric: overall rating, work-balance rating, career opportunities rating, culture values rating, senior management rating, comp& benefits rating
+**Data Selection:** 
+Among the 17 columns, we will use 15 of them - 'helful.count' and 'link' will not be the focus of this project. Rows that are related to reviews of the following companies will be used: Google, Amazon, Facebook, Microsoft, Apple and Netflix. 
+
+**Data Cleaning:**
+Detailed data cleaning work can be found within the notebook. Here list methods used in this part of work:
+- drop duplicated records
+- deal with missing values: drop records/replace with mean or mode or 'none' 
+- convert to correct data types
+- split columns: 'job.title' is split into two columns: 'position' and 'status'
+- clean text data: convert to lower case, remove punctuation, remove whitespace from 'pros', 'cons', 'summary' and 'advice.to.mgt'
 
 
-## Part 3: Data Analysis  
+## Part 4: Exploratory Data Analysis  
 
 **Which company has the most reviews?**  
 
@@ -125,10 +167,26 @@ We can tell from the above graph that:
  - Netflix apparently made a lot efforts in improving employees’ satisfactions, however over years made less-satisfactory progress
 
 
-## Part 4: Conclusion
+## Part 5: Data Modeling: 
 
-### Recommendations:
+We want to use text to predict an employee's overall rating for a company. First of all, we need to prepare the dataset for modeling.  
+The initial plan was to use *summary*, however the values contained in this column have very limited value for audience. Only several words were used and mostly are just 'good company' or similar.
+Instead, we append *pros* and *cons* to a new single column, and create a document term matrix using Term Frequency - Inverse Document Frequency Weighting.  This term matrix, after transformed to a dataframe, will be used as predictors to predict overall rating.
+The data then split to train and test sets. Two machine learning methods were applied in building models: regression tree and linear regression.
 
+
+## Part 6: Evaluating
+
+Root Mean Square Error (RMSE) is the standard deviation of the residuals (prediction errors). Residuals are a measure of how far from the regression line data points are; RMSE is a measure of how spread out these residuals are. In other words, it tells how concentrated the data is around the line of best fit.
+
+Linear Regression has outperformed with a smaller RMSE, which showing better predictive capability.
+RMSE for linear regression: 1.02768442536384
+RMSE for regression tree:   1.10288808043191
+
+
+## Part 7: Recommendations:
+
+We have found some useful insights for both companies and job hunters:
 **For companies**
 
 1. Facebook, Netflix, Microsoft and Google to improve working environments
